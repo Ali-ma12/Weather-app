@@ -37,14 +37,14 @@ class ForcastCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    'Cloudy',
+                    'Cloudy', // here should be the waether condition
                     style: TextStyle(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,
                         fontSize: 18),
                   ),
                   Text(
-                    'Sep, 24, 2024',
+                    'Sep, 24, 2024', // here should be the date
                     style: TextStyle(color: Colors.white),
                   ),
                 ],
@@ -55,7 +55,7 @@ class ForcastCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                '24°',
+                '24°', // the temperature
                 style: TextStyle(
                     fontSize: 90,
                     color: Colors.white,
@@ -63,7 +63,7 @@ class ForcastCard extends StatelessWidget {
                     height: 1),
               ),
               Text(
-                'Feels like 26 °',
+                'Feels like 26 °', // how it feels like
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 20,

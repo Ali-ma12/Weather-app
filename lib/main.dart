@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:weather_app/widgets/details.dart';
 import 'package:weather_app/widgets/forcast.dart';
 
 void main() {
@@ -16,7 +17,12 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.purple,
           title: const Text('Weather App'),
         ),
-        body: const Column(children: [ForcastCard()],),
+        body: const Column(
+          children: [
+            ForcastCard(),
+            Details(),
+          ],
+        ),
       ),
     );
   }
